@@ -45,7 +45,7 @@ def player():
             print("\nRemember, type a number (1-9)!")
             
 def comp():
-    
+   
     #the possMoves variable checks all the spots and if they are empty or not
     possMoves = [x for x, letter in enumerate(board) if letter == ' ' and x !=0]
     move = 0
